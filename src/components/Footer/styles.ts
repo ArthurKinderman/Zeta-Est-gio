@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const Footer = styled.footer`
-
     footer{
         background-color: black;
         color: white;
         text-align: center;
-        padding: 2em;
+        padding: 1em;
         bottom: 0;
         position: fixed;
         width: 100%;
     }
+
+    
 
     .social_list {
         display: flex;
@@ -31,8 +32,6 @@ export const Footer = styled.footer`
         cursor: pointer;
     }
 
-    .copy_right{
-        margin-top: 2em;
-    }
+   
 
 `

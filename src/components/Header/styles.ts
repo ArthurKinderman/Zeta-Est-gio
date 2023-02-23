@@ -81,4 +81,60 @@ export const header = styled.header`
         transform: rotate(45deg) translate(-2px, -4px);
     }
 
+
+    .dropdown {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .dropdown > #unic{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        height: 72px;
+    }
+
+    .dropdown:hover .menu2{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu2 #unic{
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+    .menu2 > #unic:hover{
+        background: #f5f5f5;
+    }
+
+    .menu2 {
+        position: absolute;
+        top: 60px;
+        right: -20px;
+        display: grid;
+        width: 180px;
+        padding: 8px 0;
+        background: #ffffff;
+        border-radius: 10px;
+        border: 1px solid gray;
+        box-shadow: 0 40px 40px rgb(0 0 0/ 6%);
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.25s;
+    }
+
+    .menu2::before{
+        content: "";
+        background: inherit;
+        border-top: 1px solid gray;
+        border-right: 1px solid gray;
+        position: absolute;
+        top: -7px;
+        right: 22px;
+        width: 12px;
+        height: 12px;
+        rotate: -45deg;
+    }
+
 `

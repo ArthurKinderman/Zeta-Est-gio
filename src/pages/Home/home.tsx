@@ -1,6 +1,8 @@
 import {  Menu } from "./styles";
 import Typewriter from "typewriter-effect";
 import React, { useState } from "react";
+import Sectiont from "../../components/Section";
+import Contatos from "../../components/Contatos";
 
 
 
@@ -8,7 +10,7 @@ import React, { useState } from "react";
 const Home = () => {
 
     const [state] = useState({
-        title: "Ben-vindo,",
+        title: "Bem-vindo,",
         titleTwo: "A",
         titleThree: "ZETA.",
     });
@@ -35,10 +37,11 @@ const Home = () => {
                 }}/>
             </div>
         </div>
-     </div>   
+     </div>    
+        <Sectiont/> 
+        <Contatos/>
      </Menu>
-    )
-    
+    )    
 }
 
 export default Home;

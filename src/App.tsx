@@ -7,6 +7,8 @@ import Sobrenos from './pages/Solucoes/solucoes';
 import GlobalStyles from './GlobalStyles/styles'
 import Footer from './components/Footer';
 import Solucoes from './pages/Solucoes/solucoes';
+import Missoes from './pages/missoes/missoes';
+import QuemS from './pages/quemsomos';
 
 function App() {
 
@@ -19,9 +21,11 @@ function App() {
                 <Route path='Sobrenos' element={<Sobrenos/>}></Route>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/solucoes'element={<Solucoes/>}/>
-                <Route path='/Contato' element={<Contato/>}/>               
+                <Route path='/Contato' element={<Contato/>}/>
+                <Route path='/missoes' element={<Missoes/>}/>  
+                <Route path='/quemsomos' element={<QuemS/>}/>            
             </Routes>
-            <Footer/>
+            
         </Router>
     </div>
   )

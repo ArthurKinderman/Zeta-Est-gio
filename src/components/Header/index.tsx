@@ -29,8 +29,14 @@ const Header = () => {
                 <h1><Link to="/" className="Links">zeta.</Link></h1>
 
                     <ul className={active}>
-
-                        <li>Sobre nós</li>
+                    <div className="dropdown">
+                        <li id="unic">Sobre nós</li>
+                        <div className="menu2">
+                            <li><Link to="/missoes" className="Links">Missões e Valores</Link></li> 
+                            <li><Link to="/quemsomos" className="Links">Quem somos</Link></li>                          
+                        </div>
+                    </div>
+                       
 
                         <li><Link to="/solucoes" className="Links">Nossas Soluções</Link></li>
 
