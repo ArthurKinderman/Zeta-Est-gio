@@ -24,13 +24,19 @@ const Header = () => {
     return (
         <S.header>
         <header>
-            <nav className="nav">               
+            <nav className="nav">    
+
                 <h1><Link to="/" className="Links">zeta.</Link></h1>
+
                     <ul className={active}>
-                        <li><Link to="/Sobrenos" className="Links" >Sobre nós</Link></li>
-                        <li>Nossas soluções</li>
+
+                        <li>Sobre nós</li>
+
+                        <li><Link to="/solucoes" className="Links">Nossas Soluções</Link></li>
+
                         <li><Link to="/Contato" className="Links">Contato</Link></li>
                     </ul>
+
                     <div onClick={navham}  className={icon}>
                         <div className="line1"></div>
                         <div className="line2"></div>
