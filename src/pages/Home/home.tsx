@@ -1,16 +1,14 @@
 import {  Menu } from "./styles";
 import Typewriter from "typewriter-effect";
 import React, { useState } from "react";
-import Sectiont from "../../components/Section";
-import Contatos from "../../components/Contatos";
-
-
+import NossasSolucoes from "../../components/NossasSolucoes";
+import Contato from "../../components/Contato";
 
 
 const Home = () => {
 
     const [state] = useState({
-        title: "Bem-vindo,",
+        title: "BEM-VINDO,",
         titleTwo: "A",
         titleThree: "ZETA.",
     });
@@ -37,11 +35,11 @@ const Home = () => {
                 }}/>
             </div>
         </div>
-     </div>    
-        <Sectiont/> 
-        <Contatos/>
+     </div>
+     <NossasSolucoes/>
+     <Contato/>
      </Menu>
-    )    
+    );  
 }
 
 export default Home;

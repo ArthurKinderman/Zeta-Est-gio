@@ -8,6 +8,8 @@ export const Menu = styled.menu`
          display: flex;
     }
 
+
+
     .home-intro{
         width: 50%;
         display: flex;
@@ -20,16 +22,19 @@ export const Menu = styled.menu`
     }
 
     .title{
+        font-size: 5rem;
         animation-name: moveRigth;
         animation-duration: 1s;
     }
 
     .titleTwo{
+        font-size: 5rem;
         animation-name: moveRigth;
         animation-duration: 1s;
     }
 
     .titleThree {
+        font-size: 5rem;
         animation-name: moveRigth;
         animation-duration: 1s;
         color: yeelow;
@@ -100,4 +105,5 @@ export const Menu = styled.menu`
     }
 
 `
+
 

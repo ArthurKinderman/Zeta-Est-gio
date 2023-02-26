@@ -6,6 +6,9 @@ export const header = styled.header`
         list-style: none;
         color: black;
     }
+    a{
+        color: black;
+    }
 
     .Links{
         color: black;

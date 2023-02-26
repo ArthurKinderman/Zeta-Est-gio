@@ -36,11 +36,8 @@ const Header = () => {
                             <li><Link to="/quemsomos" className="Links">Quem somos</Link></li>                          
                         </div>
                     </div>
-                       
-
-                        <li><Link to="/solucoes" className="Links">Nossas Soluções</Link></li>
-
-                        <li><Link to="/Contato" className="Links">Contato</Link></li>
+                        <li className="Links"><a href="#solucoes">Nossas Soluções</a></li>
+                        <li className="Links"><a href="#contato">Contato</a></li>
                     </ul>
 
                     <div onClick={navham}  className={icon}>
