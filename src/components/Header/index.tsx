@@ -32,8 +32,8 @@ const Header = () => {
                     <div className="dropdown">
                         <li id="unic">Sobre nós</li>
                         <div className="menu2">
-                            <li><Link to="/missoes" className="Links">Missões e Valores</Link></li> 
-                            <li><Link to="/quemsomos" className="Links">Quem somos</Link></li>                          
+                            <li><Link to="/quemsomos" className="Links">Quem Somos</Link></li> 
+                            <li><Link to="/missoes" className="Links">Missões e Valores</Link></li>                          
                         </div>
                     </div>
                         <li className="Links"><a href="#solucoes">Nossas Soluções</a></li>

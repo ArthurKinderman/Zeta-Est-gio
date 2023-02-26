@@ -3,6 +3,9 @@ import { Section } from "./styles"
 
 const Contato = () =>{
     
+    
+    
+
     return(
         <Section>
             <form id="contato">
@@ -10,15 +13,15 @@ const Contato = () =>{
                     <legend>Contato</legend>
 
                     <label htmlFor="name">Nome:</label>
-                    <input type="name"/>
-
+                    <input type="name" id="name"/>
+                    
                     <label htmlFor="email">Email:</label>
-                    <input type="email"/>
+                    <input type="email" id="email"/>
 
                     <label htmlFor="tell">Telefone:</label>
-                    <input type="tell"/>
-
-                    <button type="submit">Enviar</button>
+                    <input type="tell" id="tell"/>
+                    
+                    <button type="submit" id="button">Enviar</button>
                 </div>
             </form>
         </Section>
@@ -26,3 +29,7 @@ const Contato = () =>{
 }
 
 export default Contato;
+
+function getElementById(arg0: string) {
+    throw new Error("Function not implemented.");
+}
