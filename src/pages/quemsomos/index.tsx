@@ -1,5 +1,6 @@
 import { Section } from "./styles"
 import table from "../../assets/grande.jpg"
+import Span from "../../components/Span";
 
 const QuemS = () => {
     return(
@@ -10,8 +11,11 @@ const QuemS = () => {
                 <div className="row">
                     <section>
                         <p>A Zeta é uma empresa de Tecnologia e Inovação que desenvolve um sistema embarcado inteligente e inovador, para gestão de operação e manutenção preventiva e preditiva de compressores de ar que funcionará com integração e serviços em nuvem e inteligência artificial.</p>
+                        <Span/>
                         <p>A Zeta é uma empresa de Tecnologia e Inovação que desenvolve um sistema embarcado inteligente e inovador, para gestão de operação e manutenção preventiva e preditiva de compressores de ar que funcionará com integração e serviços em nuvem e inteligência artificial.</p>
+                        <Span/>
                         <p>A Zeta é uma empresa de Tecnologia e Inovação que desenvolve um sistema embarcado inteligente e inovador, para gestão de operação e manutenção preventiva e preditiva de compressores de ar que funcionará com integração e serviços em nuvem e inteligência artificial.</p>
+                        <Span/>
                         <p>A Zeta é uma empresa de Tecnologia e Inovação que desenvolve um sistema embarcado inteligente e inovador, para gestão de operação e manutenção preventiva e preditiva de compressores de ar que funcionará com integração e serviços em nuvem e inteligência artificial.</p>
                     </section>
                 </div>

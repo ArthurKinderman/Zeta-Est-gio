@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const Section = styled.section`
 
 
+
     .container{
         padding-bottom: 80px;
         display: grid;
@@ -38,9 +39,10 @@ export const Section = styled.section`
         align-items: center;
         padding-left: 30px;
     }
+
     .row .contentWrapper span.textWrapper{
         display: block;
-        font-size: 20px;
+        font-size: 30px;
         text-transform: capitalize;
         display: flex;
         justify-content: flex-start;

@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import NossasSolucoes from "../../components/NossasSolucoes";
 import Contato from "../../components/Contato";
 import Footer from "../../components/Footer";
+import Span from "../../components/Span";
 
 
 const Home = () => {
@@ -37,7 +38,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Span/>
             <NossasSolucoes />
+            <Span/>
             <Contato />
         </Menu>
     );  

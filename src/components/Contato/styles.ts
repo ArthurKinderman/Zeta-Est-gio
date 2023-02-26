@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const Section = styled.div`
 
     form{
+        padding-top: 35px;
         display: flex;
         width: 480px;
         justify-content:space-between;
