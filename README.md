@@ -3,6 +3,9 @@
 <p>Este é um desafio técnico(front-end) do processo seletivo da Zeta.</p>
 <p>É avaliado capacidade de realizar a criação de componentes com React usando TS.</p>
 
+## Site no AR
+
+-[Zeta]:https://estagiokinderman.surge.sh/?.
 # FrontEnd
 
 O frontEnd é formado por inumeras etapas de pastas, que armazezam os components e estilização , javascript e responsividade. 
