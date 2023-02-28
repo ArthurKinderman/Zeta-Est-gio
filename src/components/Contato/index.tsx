@@ -1,11 +1,7 @@
 import { Section } from "./styles"
 
-
 const Contato = () =>{
     
-    
-    
-
     return(
         <Section>
             <form id="contato">
@@ -29,7 +25,3 @@ const Contato = () =>{
 }
 
 export default Contato;
-
-function getElementById(arg0: string) {
-    throw new Error("Function not implemented.");
-}
