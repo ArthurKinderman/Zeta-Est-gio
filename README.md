@@ -5,7 +5,7 @@
 
 ## Site no AR
 
--[Zeta]:https://estagiokinderman.surge.sh/?.
+-[Zeta]:(https://estagiokinderman.surge.sh/?).
 # FrontEnd
 
 O frontEnd é formado por inumeras etapas de pastas, que armazezam os components e estilização , javascript e responsividade. 
