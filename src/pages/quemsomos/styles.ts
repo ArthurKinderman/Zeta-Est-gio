@@ -30,5 +30,22 @@ export const Section = styled.section`
         border-radius: 2px;
     }
 
+        @media(max-width:991px){
+            h1{
+                font-size:60px;
+            }
+        }
+
+        @media (max-width: 991px){
+            .container  .row {
+                padding-left: 0;
+            }
+        }
+
+        @media(max-width: 768px){
+            .row{
+                width: 100%;
+            }
+        }
 
 `
