@@ -30,5 +30,21 @@ Antes da utilização do código, é necessário ter instalado:
 
 ## Siga o Passo a Passo
 
+### Clone este repositório:
+
+-`git clone https://github.com/ArthurKinderman/Zeta-Est-gio`
+
+2-Quando baixado execute no terminal de sua IDE
+
+-`npm install`:para instalar as depências do projeto
+
+3-Com tudo feito basta executar o seguinte código no terminal
+
+-`npm run dev`: que criara um localhost e ficara no ar em sua maquina
+
+### Inicie testes com o Jest
+
+-`npm run test`: que rodara os testes na aplicação
+
 
 
