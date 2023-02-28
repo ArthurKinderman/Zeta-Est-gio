@@ -47,4 +47,15 @@ Antes da utilização do código, é necessário ter instalado:
 -`npm run test`: que rodara os testes na aplicação
 
 
+### Se quizer fazer o deploy do front basta:
+
+-`npm install --global surge`: executar no terminal para a instalação do surge
+
+-`surge`: execute esete comando para setar as configurações do deploy
+
+-Crie sua conta primeiramente colocando seu email e uma senha depois do comando `surge`
+
+-Primeiramente passe em qual pasta ira fazer o deploy e depois passe o nome de sua preferência de sua aplicação. E pronto tera sua aplicação rodando!
+
+
 
