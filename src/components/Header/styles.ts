@@ -116,8 +116,8 @@ export const header = styled.header`
         top: 60px;
         right: -20px;
         display: grid;
-        width: 180px;
-        padding: 8px 0;
+        width: 200px;
+        padding: 10px 0;
         background: #ffffff;
         border-radius: 10px;
         border: 1px solid gray;
@@ -125,6 +125,8 @@ export const header = styled.header`
         opacity: 0;
         visibility: hidden;
         transition: 0.25s;
+        display: row;
+        justify-items: center;
     }
 
     .menu2::before{
@@ -134,7 +136,7 @@ export const header = styled.header`
         border-right: 1px solid gray;
         position: absolute;
         top: -7px;
-        right: 22px;
+        right: 45%;
         width: 12px;
         height: 12px;
         rotate: -45deg;

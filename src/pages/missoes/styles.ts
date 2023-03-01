@@ -4,6 +4,11 @@ import styled from "styled-components";
 export const Menu2 = styled.menu`
 
 
+        h1{
+            font-size: 60px;
+            letter-spacing: 10px;
+        }
+
         .container{
             width: 100%;
             min-height: 100vh;
@@ -41,7 +46,7 @@ export const Menu2 = styled.menu`
         .row .right .content p{
             font-size: 16px;
             line-height: 26px;
-            padding-bottom: 15px;
+            padding-bottom: 1px;
         }
 
         @media (max-width: 991px){
@@ -54,6 +59,10 @@ export const Menu2 = styled.menu`
             .row{
                 width: 80%;
                 grid-template-columns: 1fr;
+            }
+            h1{
+                text-align: center;
+                font-size: 35px;
             }
         }
         
