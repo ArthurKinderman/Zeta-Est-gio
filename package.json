@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": " https://arthurkinderman.github.io/Zeta-Est-gio",
+  "homepage": "https://arthurkinderman.github.io/Zeta-Est-gio",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
