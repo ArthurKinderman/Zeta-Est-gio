@@ -1,4 +1,4 @@
-import {screen , render} from "@testing-library/react"
+import {screen , render, getByTestId} from "@testing-library/react"
 import Contato from "../Contato"
 
 //erro no screen impossibilitando de continuar por enquanto
@@ -28,7 +28,15 @@ describe('Contato',()=>{
 
         expect(screen.queryByRole('alert')).toBeInTheDocument();
     })
-    
+
+
+    it('input required', ()=>{
+        render(<Contato/>)
+
+       expect(screen.getByTestId('name')).toBeRequired()
+       expect(screen.getByTestId('email')).toBeRequired()
+       expect(screen.getByTestId('tell')).toBeRequired()
+    })
 
 
     

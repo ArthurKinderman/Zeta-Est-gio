@@ -3,7 +3,6 @@ import Typewriter from "typewriter-effect";
 import React, { useState } from "react";
 import NossasSolucoes from "../../components/NossasSolucoes";
 import Contato from "../../components/Contato";
-import Footer from "../../components/Footer";
 import Span from "../../components/Span";
 
 

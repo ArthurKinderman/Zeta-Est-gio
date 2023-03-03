@@ -22,13 +22,13 @@ const Contato = () =>{
                     <legend>Contato</legend>
 
                     <label htmlFor="name">Nome:</label>
-                    <input type="name" id="name"/>
+                    <input  type="name" id="name" required/>
                     
                     <label htmlFor="email">Email:</label>
-                    <input type="email" id="email"/>
+                    <input type="email" id="email" required/>
 
                     <label htmlFor="tell">Telefone:</label>
-                    <input type="tell" id="tell"/>
+                    <input type="tell" id="tell" required/>
                     
                     <button type="submit" id="buttonBtn" onClick={click}>Enviar</button>
                 </div>
