@@ -60,4 +60,8 @@ Antes da utilização do código, é necessário ter instalado:
 -Primeiramente passe em qual pasta ira fazer o deploy e depois passe o nome de sua preferência de sua aplicação. E pronto tera sua aplicação rodando!
 
 
+### Imagens do projeto
+
+[img1](./public/home1.png)
+
 

@@ -44,4 +44,9 @@ export const Section = styled.div`
         border: 1px solid black;
         border-radius: 4px;
     }
+
+    @media (max-width: 720px){
+        display: flex;
+        justify-content: center;
+    }
 `

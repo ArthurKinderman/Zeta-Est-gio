@@ -27,25 +27,16 @@ export const Section = styled.section`
     }
     .row{
         border: 2px solid darkgray;
-        border-radius: 2px;
+        border-radius: 5px;
     }
 
         @media(max-width:991px){
             h1{
-                font-size:60px;
+                font-size:50px;
             }
         }
 
-        @media (max-width: 991px){
-            .container  .row {
-                padding-left: 0;
-            }
-        }
+       
 
-        @media(max-width: 768px){
-            .row{
-                width: 100%;
-            }
-        }
 
 `
