@@ -66,8 +66,8 @@ Antes da utilização do código, é necessário ter instalado:
 
 [Imagem Home bar2](./public/home2.png)
 
-[Imagem Home bar](./public/missoes.png.png)
+[Imagem Home bar](./public/missoes.png)
 
-[Imagem Home bar](./public/pcfooter.png.png)
+[Imagem Home bar](./public/pcfooter.png)
 
 
