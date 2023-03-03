@@ -59,13 +59,15 @@ export const header = styled.header`
             position: fixed;
             top: 7vh;
             right: 0;
-            width: 50%;
-            height: 93vh;
+            width: 45%;
+            height: 73vh;
             background: white;
             flex-direction: column;
             transform: translateX(100%);
             transition: 0.5s ease-in;
-
+        }
+        li{
+            font-size: 20px;
         }
     }
 
