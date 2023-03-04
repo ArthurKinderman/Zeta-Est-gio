@@ -1,14 +1,17 @@
 import { render } from "@testing-library/react";
 import App from "./App";
+import  renderer  from "react-test-renderer";
 
 
-describe('Jest',()=>{
+describe('App',()=>{
 
-    it('should work', () =>{
-        expect(1).toBe(1);
-    })
     it('should work app', () =>{
         render(<App/>)
 
+    })
+
+    it('renders correctly', ()=>{
+        const tree = renderer.create(<App/>).toJSON();
+        expect(tree).toMatchSnapshot();
     })
 })
